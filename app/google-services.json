@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "317401433163",
+    "firebase_url": "https://yitnews-a735b.firebaseio.com",
+    "project_id": "yitnews-a735b",
+    "storage_bucket": "yitnews-a735b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317401433163:android:2a615f691d43ab47",
+        "android_client_info": {
+          "package_name": "com.example.android.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317401433163-4g54od8fp6jpbtqge8bsvp9qk41q7rt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.newsapp",
+            "certificate_hash": "95a105218c0df51efa24fabb8d8431e87ff7575e"
+          }
+        },
+        {
+          "client_id": "317401433163-hj9cpk8idnb2s84hrr9bl4bqtij02eh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9tLU8vPlpv6bVHbBgYj-Dtux2G8C3plo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317401433163-hj9cpk8idnb2s84hrr9bl4bqtij02eh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

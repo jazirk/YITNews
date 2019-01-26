@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context="com.example.android.newsapp.DetailsActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/postimage"
+            android:background="@drawable/bnr2"/>
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="118dp"
+            android:background="#99000000">
+
+        </LinearLayout>-->
+
+      <!--  <TextView
+            android:id="@+id/posttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="172dp"
+            android:background="#99000000"
+            android:maxLines="2"
+
+            android:paddingLeft="4dp"
+            android:text="Title"
+
+            android:textColor="#fff"
+            android:textSize="20sp" />-->
+
+
+    </RelativeLayout>
+
+      <!--  <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aa_desc"
+            android:textSize="18sp"
+            android:text="Desc"/>-->
+    <TextView
+            android:id="@+id/posttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:autoText="true"
+
+            android:maxLines="2"
+
+            android:paddingLeft="4dp"
+            android:text="Title"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+
+            android:textColor="#111111"
+            android:textSize="25sp" />
+     <!--   <custom_font.MyTextView
+            android:id="@+id/posttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textColor="#00051f"
+            android:textSize="30dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+
+            android:layout_marginTop="14dp"
+            />-->
+
+
+
+        <TextView
+            android:id="@+id/aa_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:text="Anime Desc"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+
+
+            android:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
